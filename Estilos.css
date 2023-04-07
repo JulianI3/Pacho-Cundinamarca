@@ -1,0 +1,613 @@
+@charset "UTF-8"; 
+
+@font-face{
+    font-family: Tahoma;
+    src: url ("''fonts/Tahoma.otf''") /* Se define el tipo de texto del archivo*/
+}   
+
+.Fondoindice{
+    height: 100vh; /*Establece la altura de un elemento*/
+    background: linear-gradient(to right, #F5EADE 0%, #F5EADE 30%,#72594E 30%, #72594E 70%, #F5EADE 70%, #F5EADE 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores distintos para 3 porciones iguales*/
+}
+
+.Titulo {
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 70px; /* Define el tamaño de letra*/
+    width: 400px;/*Define el ancho de caja */
+    margin-left: 550px;/* Define el margen izquiedo de la caja*/
+    text-shadow: 3px 3px #000000; /* Define un borde para el texto*/
+    cursor: pointer; /* Cuando se para encima del texto el puntero se vuelve una mano*/
+    color:#F5EADE; /* Define un color del texto*/
+    display: flex; /*Especifica como se debe mostrar un elemento HTML */
+    justify-content: center; /* Especifica la alineación del los elementos dentro de la caja, en este caso centrado*/
+ }
+
+.Titulo:hover { /* Especifíca acciones en cuánto el puntero se para encima del elemento */
+    color: #F5E0B0; /* Define un color*/
+    text-shadow: 3px 3px #252525; /* Define un color de borde*/
+}
+    
+.imageninicio{  
+    position: absolute; /* Definición de posición absoluta, no depende de otros elementos*/
+    top: 230px; /* Distancia del elemento al tope superior */
+    left: 456px; /* Distancia del elemento al tope izquierdo */
+}
+
+.Botonnavegacion1 { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    display: block; 
+    width: 250px; /* Ancho de la caja*/
+    font-family: Tahoma;
+    font-size: 30px; 
+    font-weight: 500; /* Grosor de la letra */ 
+    border-radius: 10px; /* Define un radio de las esquinas de la caja*/
+    padding: 10px 10px 10px 5px; /* Distancias del texto al borde de la caja /Superior/Derecha/Abajo/Izquierda/ */
+    margin-left: 90px; /* Distancia lateral izquierda mínima de la caja hasta otro elemento*/
+    margin-top: 50px; /* Distancia superior mínima de la caja hasta otro elemento*/
+    margin-right: 0px; /* Distancia lateral derecha mínima de la caja hasta otro elemento*/
+    background-color: #72594E; /* Define un color de fondo de la caja*/
+    color: #F5EADE; /* Define un color para la letra*/
+    text-align: center; /*Define una posición del texto de la caja, en este caso centrado */
+} 
+
+.Botonnavegacion {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    display: block; /* Define un elemento tipo bloque */
+    width: 250px; 
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 500; 
+    border-radius: 10px;
+    padding: 10px 10px 10px 5px;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-right: 0px;
+    background-color: #72594E;
+    color: #F5EADE;
+    text-align: center;
+}
+
+.Botonnavegacion1:hover { /* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
+    color: #F5E0B0;
+    text-shadow: 1px 1px #000000;
+    background-color:#5D351E; /* Define un color del fondo para cuando el puntero se ubica encima del elemento */
+    }
+
+.Botonnavegacion:hover {/* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
+    color: #F5E0B0;
+    text-shadow: 1px 1px #000000;
+     background-color:#5D351E;
+    }
+    
+.textoinicio{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color: #72594E;
+    position: absolute; 
+    border-radius: 5px;
+    top: 215px;
+    left: 1080px;
+    width: 400px;
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #F5EADE;   
+}
+
+a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
+    text-decoration: none; /* Elimina de los elementos tipo vínculo el subrayado*/
+}
+
+.Fondoubicacion{
+    height: 100vh; /*Establece la altura de un elemento*/
+    background: linear-gradient(to right, #F5EADE 0%, #F5EADE 25%,#72594E 25%, #72594E 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores en 2 porciones */
+}
+
+.Botonnavegacion2 { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    display: block; 
+    width: 250px; /* Ancho de la caja*/
+    font-family: Tahoma;
+    font-size: 30px; 
+    font-weight: 500; /* Grosor de la letra */ 
+    border-radius: 10px; /* Define un radio de las esquinas de la caja*/
+    padding: 10px 10px 10px 5px; /* Distancias del texto al borde de la caja /Superior/Derecha/Abajo/Izquierda/ */
+    margin-left: 40px; /* Distancia lateral izquierda mínima de la caja hasta otro elemento*/
+    margin-top: 50px; /* Distancia superior mínima de la caja hasta otro elemento*/
+    margin-right: 0px; /* Distancia lateral derecha mínima de la caja hasta otro elemento*/
+    background-color: #72594E; /* Define un color de fondo de la caja*/
+    color: #F5EADE; /* Define un color para la letra*/
+    text-align: center; /*Define una posición del texto de la caja, en este caso centrado */
+} 
+
+.Botonnavegacion3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    display: block; /* Define un elemento tipo bloque */
+    width: 250px; 
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 500; 
+    border-radius: 10px;
+    padding: 10px 10px 10px 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 0px;
+    background-color:#72594E;
+    color: #F5EADE;
+    text-align: center;
+}
+
+.Botonnavegacion2:hover { /* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
+    color: #F5E0B0;
+    text-shadow: 1px 1px #000000;
+    background-color:#5D351E; /* Define un color del fondo para cuando el puntero se ubica encima del elemento */
+    }
+
+.Botonnavegacion3:hover {/* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
+    color: #F5E0B0;
+    text-shadow: 1px 1px #000000;
+     background-color:#5D351E;
+    }  
+
+.Imagenubicacion {
+    position: absolute; /* Definición de posición absoluta, no depende de otros elementos*/
+    top: 290px; /* Distancia del elemento al tope superior */
+    left: 380px; /* Distancia del elemento al tope izquierdo */
+}
+
+.textoubicacion{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    position: absolute; 
+    border-radius: 5px;
+    top: 270px;
+    left: 1000px;
+    width: 470px;
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #72594E;   
+}
+
+.Subtitulo {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 30px; /* Define el tamaño de letra*/
+    max-width: 700px;/*Define un valor máximo de ancho de caja */
+    position: absolute;
+    top: 180px;
+    left: 430px;
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#F5EADE; /* Define un color del texto*/
+}
+
+.Subtitulo2 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 30px; /* Define el tamaño de letra*/
+    width: 350px;/*Define el ancho de caja */
+    position: relative; /* Definición de posición relativa, depende de otros elementos*/
+    top: 380px;
+    left: 430px;
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#F5EADE; /* Define un color del texto*/
+}
+
+.textoclima{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    position: absolute; 
+    border-radius: 5px;
+    top: 1070px;
+    left: 420px;
+    max-width: 1050px;/* Define el máximo ancho que puede tener la caja*/
+    font-family: Tahoma;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    align-content: center;
+    color: #72594E;   
+}
+
+.Flora{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+      text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    position: absolute; 
+    top: 1350px;
+    left: 430px;
+    max-width: 1050px;/* Define el máximo ancho que puede tener la caja*/
+    font-family: Tahoma;
+    font-size: 30px;
+    align-content: center;
+    text-shadow: 1px 1px #000000; 
+    color: #F5EADE; 
+    background: linear-gradient( #72594E 0%, #72594E 11.5%, #F5EADE 11.5%, #F5EADE 93.8%,#72594E 93.8%,#72594E 100%);/*Se utiliza para definir el color de fondo de la caja, (de forma diferenciada)*/
+    padding: 0px 0px 0px 0px;
+}
+
+.Fauna{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+      text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    position: absolute; 
+    top: 1350px;
+    left: 900px;
+    max-width: 1050px;
+    font-family: Tahoma;
+    font-size: 30px;
+    align-content: center;
+    text-shadow: 1px 1px #000000; 
+    color: #F5EADE; 
+    background: linear-gradient( #72594E 0%, #72594E 11.5%, #F5EADE 11.5%, #F5EADE 93.8%,#72594E 93.8%,#72594E 100%);
+    padding: 0px 0px 0px 0px;
+}
+
+.Brujula {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    display: block;  /* Define un elemento tipo bloque */
+    background-color: #F5EADE;
+    width: 280px;
+    border-radius: 10px;
+    padding: 80px 0px 80px 205px;
+    position: absolute;
+    top: 720px;
+    left: 1000px;
+    align-content: center;
+}
+
+.Sancayetano {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 730px ;
+    left: 1193px;
+}
+
+.Tausa {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 730px ;
+    left: 1370px;
+}
+
+.Cogua {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 820px ;
+    left: 1370px;
+}
+
+.Zipaquira {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 910px ;
+    left: 1370px;
+}
+
+.Subachoque {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 910px ;
+    left: 1195px;
+}
+
+.Elpenol {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 820px ;
+    left: 1035px;
+}
+
+.Villagomez {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 720px ;
+    left: 1035px;
+}
+
+.Topaipi {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 740px ;
+    left: 1035px;
+}
+
+.Vergara {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 900px ;
+    left: 1035px;
+}
+
+.Supata {
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 13px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 920px ;
+    left: 1035px;
+}
+
+.Maps {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 15px; /* Define el tamaño de letra*/
+    position: absolute;
+    top: 975px ;
+    left: 400px;
+    color: #F5EADE;
+    cursor: pointer;
+    text-decoration:underline; /*Permite que el texto presente subrayado (Debido a que este se le había eliminado a los elementos tipo "a")*/
+}
+
+.Maps:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #F5E0B0;
+    text-shadow: 1px 1px #000000;
+    }
+
+.vinc1 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    position: absolute;
+    top: 1900px;
+    left: 430px;
+    color:#F5E0B0; /* Define un color del texto*/
+}
+
+.vinc1:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #F5EADE; /* Define un color del texto*/
+}
+
+.textohabitantes{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    position: absolute; 
+    border-radius: 5px;
+    top: 280px;
+    left: 420px;
+    max-width: 670px;
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #72594E;   
+}
+
+.Imagenhabitantes {
+    position: absolute; /* Definición de posición absoluta, no depende de otros elementos*/
+    top: 0px; /* Distancia del elemento al tope superior */
+    left: 1155px; /* Distancia del elemento al tope izquierdo */
+}
+
+.Subtitulo3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 30px; /* Define el tamaño de letra*/
+    max-width: 500px;/*Define un ancho máximo de caja */
+    position: absolute; /* Definición de posición relativa, depende de otros elementos*/
+    top: 520px;
+    left: 430px;
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#F5EADE; /* Define un color del texto*/
+}
+
+.Subsubtitulo {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 25px; /* Define el tamaño de letra*/
+    width: 680px;/*Define el ancho de caja */
+    position: absolute; /* Definición de posición relativa, depende de otros elementos*/
+    top: 630px;
+    left: 420px;
+    padding-left: 10px;
+    color:#72594E; /* Define un color del texto*/
+    background-color:  #F5EADE;
+    border-radius: 5px;
+}
+
+.Pachunos{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 20px; /* Define el tamaño de letra*/
+    max-width: 670px;/*Define el ancho de caja */
+    color:#72594E; /* Define un color del texto*/
+    text-align: justify;
+}
+
+.Imagenes{
+    position: relative;/* Definición de posición relativa, depende de otros elementos*/
+	float: left;/* Especifíca que el elemento flota a la izquierda del cuadro*/
+	margin-right: 10px;/* Distancia mínima de 10 pixeles a la derecha del elemeto con otro elemento*/
+	margin-bottom: 10px;/* Distancia mínima de 10 pixeles encima del elemeto con otro elemento*/
+}
+
+.vinc2 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    position: absolute;
+    top: 2620px;
+    left: 430px;
+    color:#F5E0B0; /* Define un color del texto*/
+}
+
+.vinc2:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #F5EADE; /* Define un color del texto*/
+}
+
+.Iniciohistoria {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    position: absolute; 
+    border-radius: 5px;
+    top: 280px;
+    left: 420px;
+    max-width: 900px; /*Define el ancho de caja */
+    font-family: Tahoma;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #72594E; 
+}
+
+.Pachunos1{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 18px; /* Define el tamaño de letra*/
+    max-width: 900px;/*Define el ancho de caja */
+    color:#72594E; /* Define un color del texto*/
+    text-align: justify;
+}
+
+.Pachunos1:hover {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    color: #5D351E; /* Define un color del texto*/
+}
+
+.vinc3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    position: absolute;
+    top: 1835px;
+    left: 430px;
+    color:#F5E0B0; /* Define un color del texto*/
+}
+
+.vinc3:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #F5EADE; /* Define un color del texto*/
+}
+
+.Subtitulo4{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+     font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 30px; /* Define el tamaño de letra*/
+    max-width: 500px;/*Define un ancho máximo de caja */
+    position: absolute; /* Definición de posición relativa, depende de otros elementos*/
+    top: 190px;
+    left: 500px;
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#F5EADE; /* Define un color del texto*/
+}
+
+.Referencias { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    position: absolute; 
+    border-radius: 5px;
+    top: 280px;
+    left: 480px;
+    max-width: 540px;
+    font-family: Tahoma;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #72594E; 
+}
+
+.vinc4 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    position: absolute;
+    top: 1480px;
+    left: 480px;
+    color:#F5E0B0; /* Define un color del texto*/
+}
+
+.vinc4:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #F5EADE; /* Define un color del texto*/
+}
+
+.Indiceact {
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 25px; /* Define el tamaño de letra*/
+    max-width: 900px;/*Define el ancho de caja */
+    color:#72594E; /* Define un color del texto*/
+    text-align: justify;
+}
+
+.Indiceact:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #5D351E; /* Define un color del texto*/
+}
+
+.Actividades{ 
+    position: absolute;
+    top:240px;
+    left:880px;   
+}
+
+.Subtituloact1{
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    position: absolute; 
+    border-radius: 5px;
+    top: 680px;
+    left: 430px;
+    max-width: 1000px;
+    font-family: Tahoma;
+    font-size: 30px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #F5EADE; 
+}
+
+.Subsubtituloact1{
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    position: absolute; 
+    border-radius: 5px;
+    top: 750px;
+    left: 430px;
+    max-width: 1000px;
+    font-family: Tahoma;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #72594E; 
+}
+
+.Pachunos2{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 18px; /* Define el tamaño de letra*/
+    max-width: 950px;/*Define el ancho de caja */
+    color:#72594E; /* Define un color del texto*/
+    text-align: justify;   
+}
+
+.Imagenescenter{ /*Estilo para centrar las imagenes*/
+    text-align: center;/*Alineación de texto centrado*/
+}
+
+.Subtituloact2{
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    position: absolute; 
+    border-radius: 5px;
+    top: 2400px;
+    left: 430px;
+    max-width: 1000px;
+    font-family: Tahoma;
+    font-size: 30px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #F5EADE; 
+}
+
+.Subsubtituloact2{
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    position: absolute; 
+    border-radius: 5px;
+    top: 2470px;
+    left: 430px;
+    max-width: 1000px;
+    font-family: Tahoma;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #72594E; 
+}
+
+.vinc5 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    position: absolute;
+    top: 5280px;
+    left: 480px;
+    color:#F5E0B0; /* Define un color del texto*/
+}
+
+.vinc5:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #F5EADE; /* Define un color del texto*/
+}
