@@ -12,8 +12,8 @@
 
 .Titulo {
     font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 70px; /* Define el tamaño de letra*/
-    width: 400px;/*Define el ancho de caja */
+    font-size: 100px; /* Define el tamaño de letra*/
+    width: 30%;/*Define el ancho de caja */
     margin-left: 550px;/* Define el margen izquiedo de la caja*/
     text-shadow: 3px 3px #000000; /* Define un borde para el texto*/
     cursor: pointer; /* Cuando se para encima del texto el puntero se vuelve una mano*/
