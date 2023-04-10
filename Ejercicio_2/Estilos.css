@@ -627,3 +627,60 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 .vinc5:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
     color: #F5EADE; /* Define un color del texto*/
 }
+
+@media only screen and (max-width: 1280px) {
+    
+.Subtitulo2 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 30px; /* Define el tamaño de letra*/
+    max-width: 20%;/*Define el ancho de caja */
+    position: relative; /* Definición de posición relativa, depende de otros elementos*/
+    top: 200px;
+    left: 28%;
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#F5EADE; /* Define un color del texto*/
+}
+
+.textoclima{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    position: absolute; 
+    border-radius: 5px;
+    top: 140%;
+    left: 27%;
+    max-width: 950px;/* Define el máximo ancho que puede tener la caja*/
+    font-family: Tahoma;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    align-content: center;
+    color: #72594E;   
+}
+
+.Flora{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+      text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    position: absolute; 
+    top: 178%;
+    left: 27%;
+    max-width: 30%;/* Define el máximo ancho que puede tener la caja*/
+    font-family: Tahoma;
+    font-size: 30px;
+    align-content: center;
+    text-shadow: 1px 1px #000000; 
+    color: #F5EADE; 
+    padding: 0px 0px 0px 0px;
+}
+
+.Fauna{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+      text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    position: absolute; 
+    top: 178%;
+    left: 60%;
+    max-width: 38%;
+    font-family: Tahoma;
+    font-size: 30px;
+    align-content: center;
+    text-shadow: 1px 1px #000000; 
+    color: #F5EADE; 
+    padding: 0px 0px 0px 0px;
+}
+}
