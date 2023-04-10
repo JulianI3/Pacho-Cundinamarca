@@ -12,9 +12,9 @@
 
 .Titulo {
     font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 100px; /* Define el tamaño de letra*/
-    width: 30%;/*Define el ancho de caja */
-    margin-left: 550px;/* Define el margen izquiedo de la caja*/
+    font-size: 55px ; /* Define el tamaño de letra*/
+    max-width: 25%;/*Define el ancho de caja */
+    margin-left: 37.5%;/* Define el margen izquiedo de la caja*/
     text-shadow: 3px 3px #000000; /* Define un borde para el texto*/
     cursor: pointer; /* Cuando se para encima del texto el puntero se vuelve una mano*/
     color:#F5EADE; /* Define un color del texto*/
@@ -30,18 +30,19 @@
 .imageninicio{  
     position: absolute; /* Definición de posición absoluta, no depende de otros elementos*/
     top: 230px; /* Distancia del elemento al tope superior */
-    left: 456px; /* Distancia del elemento al tope izquierdo */
+    left: 30%; /* Distancia del elemento al tope izquierdo */
+    width: 40%
 }
 
 .Botonnavegacion1 { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     display: block; 
-    width: 250px; /* Ancho de la caja*/
+    width: 16.5%; /* Ancho de la caja*/
     font-family: Tahoma;
     font-size: 30px; 
     font-weight: 500; /* Grosor de la letra */ 
     border-radius: 10px; /* Define un radio de las esquinas de la caja*/
     padding: 10px 10px 10px 5px; /* Distancias del texto al borde de la caja /Superior/Derecha/Abajo/Izquierda/ */
-    margin-left: 90px; /* Distancia lateral izquierda mínima de la caja hasta otro elemento*/
+    margin-left:  5%; /* Distancia lateral izquierda mínima de la caja hasta otro elemento*/
     margin-top: 50px; /* Distancia superior mínima de la caja hasta otro elemento*/
     margin-right: 0px; /* Distancia lateral derecha mínima de la caja hasta otro elemento*/
     background-color: #72594E; /* Define un color de fondo de la caja*/
@@ -51,13 +52,13 @@
 
 .Botonnavegacion {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     display: block; /* Define un elemento tipo bloque */
-    width: 250px; 
+    width: 16.5%; 
     font-family: Tahoma;
     font-size: 30px;
     font-weight: 500; 
     border-radius: 10px;
     padding: 10px 10px 10px 5px;
-    margin-left: 90px;
+    margin-left: 5%;
     margin-top: 20px;
     margin-right: 0px;
     background-color: #72594E;
@@ -83,8 +84,8 @@
     position: absolute; 
     border-radius: 5px;
     top: 215px;
-    left: 1080px;
-    width: 400px;
+    left: 71%;
+    max-width: 35%;
     font-family: Tahoma;
     font-size: 20px;
     padding: 0px 10px 0px 10px;
