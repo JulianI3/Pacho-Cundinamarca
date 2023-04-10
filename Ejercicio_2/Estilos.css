@@ -31,7 +31,7 @@
     position: absolute; /* Definición de posición absoluta, no depende de otros elementos*/
     top: 230px; /* Distancia del elemento al tope superior */
     left: 30%; /* Distancia del elemento al tope izquierdo */
-    width: 40%
+    width: 40%;
 }
 
 .Botonnavegacion1 { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
@@ -104,13 +104,13 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 
 .Botonnavegacion2 { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     display: block; 
-    width: 250px; /* Ancho de la caja*/
+    width: 16.5%; /* Ancho de la caja*/
     font-family: Tahoma;
     font-size: 30px; 
     font-weight: 500; /* Grosor de la letra */ 
     border-radius: 10px; /* Define un radio de las esquinas de la caja*/
     padding: 10px 10px 10px 5px; /* Distancias del texto al borde de la caja /Superior/Derecha/Abajo/Izquierda/ */
-    margin-left: 40px; /* Distancia lateral izquierda mínima de la caja hasta otro elemento*/
+    margin-left: 3%; /* Distancia lateral izquierda mínima de la caja hasta otro elemento*/
     margin-top: 50px; /* Distancia superior mínima de la caja hasta otro elemento*/
     margin-right: 0px; /* Distancia lateral derecha mínima de la caja hasta otro elemento*/
     background-color: #72594E; /* Define un color de fondo de la caja*/
@@ -120,13 +120,13 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 
 .Botonnavegacion3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     display: block; /* Define un elemento tipo bloque */
-    width: 250px; 
+    width: 16.5%; 
     font-family: Tahoma;
     font-size: 30px;
     font-weight: 500; 
     border-radius: 10px;
     padding: 10px 10px 10px 5px;
-    margin-left: 40px;
+    margin-left: 3%;
     margin-top: 20px;
     margin-right: 0px;
     background-color:#72594E;
@@ -149,7 +149,8 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 .Imagenubicacion {
     position: absolute; /* Definición de posición absoluta, no depende de otros elementos*/
     top: 290px; /* Distancia del elemento al tope superior */
-    left: 380px; /* Distancia del elemento al tope izquierdo */
+    left: 25%; /* Distancia del elemento al tope izquierdo */
+    width: 40%;
 }
 
 .textoubicacion{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
@@ -158,10 +159,10 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     position: absolute; 
     border-radius: 5px;
     top: 270px;
-    left: 1000px;
-    width: 470px;
+    left: 66%;
+    width: 30%;
     font-family: Tahoma;
-    font-size: 20px;
+    font-size: 15px;
     padding: 0px 10px 0px 10px;
     align-content: center;
     color: #72594E;   
@@ -170,10 +171,10 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 .Subtitulo {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 30px; /* Define el tamaño de letra*/
-    max-width: 700px;/*Define un valor máximo de ancho de caja */
+    max-width: 45%;/*Define un valor máximo de ancho de caja */
     position: absolute;
     top: 180px;
-    left: 430px;
+    left: 27%;
     text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
     color:#F5EADE; /* Define un color del texto*/
 }
@@ -181,10 +182,10 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 .Subtitulo2 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 30px; /* Define el tamaño de letra*/
-    width: 350px;/*Define el ancho de caja */
-    position: relative; /* Definición de posición relativa, depende de otros elementos*/
-    top: 380px;
-    left: 430px;
+    max-width: 20%;/*Define el ancho de caja */
+    position: absolute; /* Definición de posición relativa, depende de otros elementos*/
+    top: 128%;
+    left: 28%;
     text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
     color:#F5EADE; /* Define un color del texto*/
 }
@@ -194,11 +195,11 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     background-color:  #F5EADE;
     position: absolute; 
     border-radius: 5px;
-    top: 1070px;
-    left: 420px;
-    max-width: 1050px;/* Define el máximo ancho que puede tener la caja*/
+    top: 140%;
+    left: 27%;
+    max-width: 70%;/* Define el máximo ancho que puede tener la caja*/
     font-family: Tahoma;
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px 10px 5px 10px;
     align-content: center;
     color: #72594E;   
@@ -207,42 +208,40 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 .Flora{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
       text-align: justify; /* Define una posición del texto, en este caso justificado*/
     position: absolute; 
-    top: 1350px;
-    left: 430px;
-    max-width: 1050px;/* Define el máximo ancho que puede tener la caja*/
+    top: 178%;
+    left: 27%;
+    max-width: 30%;/* Define el máximo ancho que puede tener la caja*/
     font-family: Tahoma;
     font-size: 30px;
     align-content: center;
     text-shadow: 1px 1px #000000; 
     color: #F5EADE; 
-    background: linear-gradient( #72594E 0%, #72594E 11.5%, #F5EADE 11.5%, #F5EADE 93.8%,#72594E 93.8%,#72594E 100%);/*Se utiliza para definir el color de fondo de la caja, (de forma diferenciada)*/
     padding: 0px 0px 0px 0px;
 }
 
 .Fauna{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
       text-align: justify; /* Define una posición del texto, en este caso justificado*/
     position: absolute; 
-    top: 1350px;
-    left: 900px;
-    max-width: 1050px;
+    top: 178%;
+    left: 60%;
+    max-width: 38%;
     font-family: Tahoma;
     font-size: 30px;
     align-content: center;
     text-shadow: 1px 1px #000000; 
     color: #F5EADE; 
-    background: linear-gradient( #72594E 0%, #72594E 11.5%, #F5EADE 11.5%, #F5EADE 93.8%,#72594E 93.8%,#72594E 100%);
     padding: 0px 0px 0px 0px;
 }
 
 .Brujula {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     display: block;  /* Define un elemento tipo bloque */
     background-color: #F5EADE;
-    width: 280px;
+    width: 17%;
     border-radius: 10px;
-    padding: 80px 0px 80px 205px;
+    padding: 80px 2% 80px 13%;
     position: absolute;
-    top: 720px;
-    left: 1000px;
+    top: 660px;
+    left: 66%;
     align-content: center;
 }
 
@@ -250,88 +249,88 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 730px ;
-    left: 1193px;
+    top: 670px ;
+    left: 79%;
 }
 
 .Tausa {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 730px ;
-    left: 1370px;
+    top: 670px ;
+    left: 90%;
 }
 
 .Cogua {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 820px ;
-    left: 1370px;
+    top: 760px ;
+    left: 90%;
 }
 
 .Zipaquira {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 910px ;
-    left: 1370px;
+    top: 850px ;
+    left: 90%;
 }
 
 .Subachoque {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 910px ;
-    left: 1195px;
+    top: 850px;
+    left: 79%;
 }
 
 .Elpenol {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 820px ;
-    left: 1035px;
+    top: 760px ;
+    left: 68%;
 }
 
 .Villagomez {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 720px ;
-    left: 1035px;
+    top: 660px  ;
+    left: 68%;
 }
 
 .Topaipi {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 740px ;
-    left: 1035px;
+    top: 680px ;
+    left: 68%;
 }
 
 .Vergara {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 900px ;
-    left: 1035px;
+    top: 840px ;
+    left: 68%;
 }
 
 .Supata {
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 13px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 920px ;
-    left: 1035px;
+    top: 860px ;
+    left: 68%;
 }
 
 .Maps {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 15px; /* Define el tamaño de letra*/
     position: absolute;
-    top: 975px ;
-    left: 400px;
+    top: 130%;
+    left: 27%;
     color: #F5EADE;
     cursor: pointer;
     text-decoration:underline; /*Permite que el texto presente subrayado (Debido a que este se le había eliminado a los elementos tipo "a")*/
@@ -347,8 +346,8 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     font-size: 12px; /* Define el tamaño de letra*/
     width: 150px;/*Define el ancho de caja */
     position: absolute;
-    top: 1900px;
-    left: 430px;
+    top:258%;
+    left: 27%;
     color:#F5E0B0; /* Define un color del texto*/
 }
 
