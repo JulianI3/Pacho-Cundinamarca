@@ -623,7 +623,7 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     margin-left: 27%;
     max-width: 70%;
     font-family: Tahoma;
-    font-size: 15px;
+    font-size: 11px;
     padding: 5px 10px 5px 10px;
     align-content: center;
     color: #002034;   
@@ -706,7 +706,7 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     background-color:  #e2e2e2;
     border-radius: 5px;
     font-family: Tahoma;
-    font-size: 18px;
+    font-size: 12px;
     padding: 10px 10px 10px 5px;
     align-content: center;
     color: #002034; 
@@ -769,7 +769,7 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 
 .Pachunos1{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 18px; /* Define el tamaño de letra*/
+    font-size: 15px; /* Define el tamaño de letra*/
     max-width: 900px;/*Define el ancho de caja */
     color:#002034; /* Define un color del texto*/
     text-align: justify;
@@ -835,7 +835,7 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 
 .Indiceact {
     font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 20px; /* Define el tamaño de letra*/
+    font-size: 15px; /* Define el tamaño de letra*/
     max-width: 30%;/*Define el ancho de caja */
     color:#002034; /* Define un color del texto*/
     text-align: justify;
@@ -1118,7 +1118,7 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     margin-left: 27%;
     max-width: 70%;
     font-family: Tahoma;
-    font-size: 12px;
+    font-size: 10px;
     padding: 5px 10px 5px 10px;
     align-content: center;
     color: #132815;   
@@ -1335,7 +1335,7 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 
 .Indiceact {
     font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 15px; /* Define el tamaño de letra*/
+    font-size: 12px; /* Define el tamaño de letra*/
     max-width: 30%;/*Define el ancho de caja */
     color:#132815; /* Define un color del texto*/
     text-align: justify;
