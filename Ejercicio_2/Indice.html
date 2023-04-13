@@ -12,13 +12,35 @@
 <body class=Fondoindice> <!-- Se llama a un estilo de texto en el archivo CSS -->
 <h1> <a class=Titulo href="Indice.html" target=_self> Pacho <br> Cundinamarca </a> </h1><!-- Texto de primera categoría (Titulo)-->
 <div class="row" >
-<nav class=col-3>
-    <a class="Botonnavegacion2" href="Ubicacion.html" target="_self"> <img class="iconos" src="Imagenes/Ubicacion_icono.png" width="15%"  alt="Icono de ubicación" />  Ubicación </a>
-    <a class="Botonnavegacion3" href="Habitantes.html" target="_self"> <img class="iconos" src="Imagenes/Habitantes_icono.png" width="15%" alt="Icono de habitantes" />  Habitantes </a>
-    <a class="Botonnavegacion3" href="Actividades.html" target="_self"> <img class="iconos" src="Imagenes/Actividaes_icono.png" width="15%" alt="Icono de actividades" /> Actividades </a>
-    <a class="Botonnavegacion3" href="Historia.html" target="_self"> <img class="iconos" src="Imagenes/Historia_icono.png" width="15%" alt="Icono de historia" /> Historia </a>
-    <a class="Botonnavegacion3" href="Referencias.html" target="_self"> <img class="iconos" src="Imagenes/Referencias_icono.png" width="15%" alt="Icono de referencias" /> Referencias </a>  
-</nav> <!-- Desde la apertura del elemento "nav" se empezó a ingresar enlaces de navegación comprendidos en los elementos tipo vínculo "a"-->
+<div class="col-3">
+    <!-- Definición de la columna del menú de navegación -->
+    <input type="checkbox" id="btn-menu"><!-- checkbox permite la opción booleana -->
+    <div class="checkBoxMenu">
+        <label for="btn-menu">
+            <img src="Imagenes/menu.png" width="25px">  <p>&nbsp; Menú </p>
+        </label>
+    </div>
+    <div class="column menu">
+        <nav>
+            <p><a href="Ubicacion.html" target="_self"> 
+                <button class="buttonMenu"><img class="iconos" src="Imagenes/Ubicacion_icono.png" width="15%"  alt="Icono de ubicación"> Ubicación</button>
+            </a></p>
+            <p><a href="Habitantes.html" target="_self">
+                <button class="buttonMenu"><img class="iconos" src="Imagenes/Habitantes_icono.png" width="15%"  alt="Icono de ubicación"> Habitantes</button>
+            </a></p>
+            <p><a href="Actividades.html" target="_self">
+                <button class="buttonMenu"><img class="iconos" src="Imagenes/Actividaes_icono.png" width="15%"  alt="Icono de ubicación"> Actividades</button>
+            </a></p>
+            <p><a href="Historia.html" target="_self">
+                <button class="buttonMenu"><img class="iconos" src="Imagenes/Historia_icono.png" width="15%"  alt="Icono de ubicación"> Historia</button>
+            </a></p>
+            <p><a href="Referencias.html" target="_self">
+                <button class="buttonMenu"><img class="iconos" src="Imagenes/Referencias_icono.png" width="15%"  alt="Icono de ubicación"> Referencias</button>
+            </a></p>
+        </nav>
+    </div>
+    <!-- Definición de la columna del menú de información -->
+</div>
     
 <div   class="col-6" >
     <img class=imageninicio src="Imagenes/Capilla.jpg" width="100%" alt="Capilla del divino niño en Pacho"/>
