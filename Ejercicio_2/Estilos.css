@@ -814,11 +814,11 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     color: #002034; 
 }
 
-#imagen {
+#imagen { /* Definido para eliminar el elemento*/
     display: none !important;
   }
 
-#nuevaimagen {
+#nuevaimagen { /* Definido para agregar el elemento*/
     display: block !important;
   }
 
@@ -1309,16 +1309,16 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     color: #132815; 
 }
 
-#imagen {
+#imagen { /* Definido para eliminar el elemento*/
     display: none !important;
   }
 
-#nuevaimagen {
+#nuevaimagen { /* Definido para eliminar el elemento*/
     display: none !important;
   }
 
 
-#nuevaimagen2 {
+#nuevaimagen2 { /* Definido para agregar el elemento*/
     display: block !important;
   }    
 
