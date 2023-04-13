@@ -6,89 +6,117 @@
 }  
 
 
-.row {
+.row { /* Se define el para abarcar todo el ancho de pantalla y poderlo dividir posteriormente en columnas*/
+    box-sizing: border-box !important; /* Define como es el tamaño de la caja, en este caso el ancho y la altura se aplican a todas las partes del elemento.*/
+    display: flex;  /*Especifica como se debe mostrar un elemento HTML */
+    width: 100% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+}
+                            /*El "!important" permite darle mayor peso a la tarea indicada, permitiendole priorizar esta ejecución*/
+.col-1 { /*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    display: flex;
-    width: 100% !important;
+    width: 8.33% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px; /*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-1 {
+.col-2 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 8.33% !important;
-    padding: 12px;
+    width: 16.66% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px; /*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-2 {
+.col-3 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 16.66% !important;
-    padding: 12px;
+    width: 25% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-3 {
+.col-4 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 25% !important;
-    padding: 12px;
+    width: 33.33% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-4 {
+.col-5 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 33.33% !important;
-    padding: 12px;
+    width: 41.66% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-5 {
+.col-6 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 41.66% !important;
-    padding: 12px;
+    width: 50% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-6 {
+.col-6_1 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 50% !important;
-    padding: 12px;
+    width: 50% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
+    margin-left: 3%; /*Distancia a la izquierda del elemento con otro elemento, esta distancia es relativa al ancho de la pantalla*/
 }
 
-.col-6_1 {
+.col-7 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 50% !important;
-    padding: 12px;
-    margin-left: 3%;
+    width: 58.33% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-7 {
+.col-8 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 58.33% !important;
-    padding: 12px;
+    width: 66.66% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-8 {
+.col-9 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 66.66% !important;
-    padding: 12px;
+    width: 75% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-9 {
+.col-10 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 75% !important;
-    padding: 12px;
+    width: 83.33% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-10 {
+.col-11 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 83.33% !important;
-    padding: 12px;
+    width: 91.66% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-11 {
+.col-12 {/*Define un elemento que servirá de columna con el ancho especificado posteriormente*/
     box-sizing: border-box !important;
-    width: 91.66% !important;
-    padding: 12px;
+    width: 100% !important; /*Define el ancho del elemento de forma que dependa del ancho de la pantalla*/
+    padding: 12px;/*Define la distancia entre el contenido de una caja y sus bordes*/
 }
 
-.col-12 {
-    box-sizing: border-box !important;
-    width: 100% !important;
-    padding: 12px;
+div.checkBoxMenu {
+  
+  background-color: #e2e2e2; 
+ width: 30%; 
+  border-radius: 20%; 
+  margin-bottom: 6px; 
+  margin-left: 15px;
+  padding-left: 25px!important;
+ padding-top: 10px;
+  border: solid 3px black;
+}
+
+div.checkBoxMenu img {
+
+  background-color: #e2e2e2; 
+  border-radius: 999px; 
+  position: relative; 
+  float: left; 
+}
+
+div.checkBoxMenu p {
+  
+  font-family: Tahoma;
+  font-size: 25px !important; 
+  font-weight: bold;
+  margin: auto; 
 }
 
 .Fondoindice{
@@ -121,55 +149,11 @@
     width: 83.4%;
 }
 
-.Botonnavegacion1 { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
-    display: block; 
-    width: 16.7%; /* Ancho de la caja*/
-    font-family: Tahoma;
-    font-size: 25px; 
-    font-weight: 500; /* Grosor de la letra */ 
-    border-radius: 10px; /* Define un radio de las esquinas de la caja*/
-    padding: 10px 10px 10px 5px; /* Distancias del texto al borde de la caja /Superior/Derecha/Abajo/Izquierda/ */
-    margin-left:  5%; /* Distancia lateral izquierda mínima de la caja hasta otro elemento*/
-    margin-top: 50px; /* Distancia superior mínima de la caja hasta otro elemento*/
-    margin-right: 0px; /* Distancia lateral derecha mínima de la caja hasta otro elemento*/
-    background-color: #72594E; /* Define un color de fondo de la caja*/
-    color: #F5EADE; /* Define un color para la letra*/
-    text-align: center; /*Define una posición del texto de la caja, en este caso centrado */
-} 
-
-.Botonnavegacion {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
-    display: block; /* Define un elemento tipo bloque */
-    width: 16.7%; 
-    font-family: Tahoma;
-    font-size: 25px;
-    font-weight: 500; 
-    border-radius: 10px;
-    padding: 10px 10px 10px 5px;
-    margin-left: 5%;
-    margin-top: 20px;
-    margin-right: 0px;
-    background-color: #72594E;
-    color: #F5EADE;
-    text-align: center;
-}
-
-.Botonnavegacion1:hover { /* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
-    color: #F5E0B0;
-    text-shadow: 1px 1px #000000;
-    background-color:#5D351E; /* Define un color del fondo para cuando el puntero se ubica encima del elemento */
-    }
-
-.Botonnavegacion:hover {/* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
-    color: #F5E0B0;
-    text-shadow: 1px 1px #000000;
-     background-color:#5D351E;
-    }
     
 .textoinicio{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     text-align: justify; /* Define una posición del texto, en este caso justificado*/
     background-color: #72594E;
     border-radius: 5px;
-    margin-top: 50px;
     font-family: Tahoma;
     font-size: 20px;
     padding: 0px 10px 0px 10px;
@@ -230,12 +214,18 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
      background-color:#5D351E;
     }  
 
+ul {
+    list-style: none;
+}
 
+ul {
+    padding-left: 0px!important;
+}
 .textoubicacion{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     text-align: justify; /* Define una posición del texto, en este caso justificado*/
     background-color:  #F5EADE;
     border-radius: 5px;
-    margin-top:  85px;
+    margin-top:  80px;
     left: 15%;
     font-family: Tahoma;
     font-size: 15px;
@@ -338,11 +328,6 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     color: #72594E;   
 }
 
-.Imagenhabitantes {
-    position: absolute; /* Definición de posición absoluta, no depende de otros elementos*/
-    top: 0px; /* Distancia del elemento al tope superior */
-    left: 76%; /* Distancia del elemento al tope izquierdo */
-}
 
 .Subtitulo3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
@@ -487,12 +472,6 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     color: #5D351E; /* Define un color del texto*/
 }
 
-.Actividades{ 
-    position: absolute;
-    top:240px;
-    left:65%;   
-}
-
 .Imagenact{
     position: relative;/* Definición de posición relativa, depende de otros elementos*/
 	float: right;/* Especifíca que el elemento flota a la izquierda del cuadro*/
@@ -551,11 +530,135 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 .vinc5:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
     color: #F5EADE; /* Define un color del texto*/
 }
-
-@media only screen and (max-width: 1280px) {
+}
+@media only screen and (max-width: 1200px) {
     
-.Subtitulo2 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+.iconos{
+    width: 15%;    
+    }
+
+.Fondoindice{
+    height: 100vh; /*Establece la altura de un elemento*/
+    background: linear-gradient(to right, #e2e2e2 0%, #e2e2e2 30%,#002034 30%, #002034 70%, #e2e2e2 70%, #e2e2e2 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores distintos para 3 porciones iguales*/
+}
+
+.Titulo {
     font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 1.35em ; /* Define el tamaño de letra*/
+    max-width: 25%;/*Define el ancho de caja */
+    margin-left: 37.5%;/* Define el margen izquiedo de la caja*/
+    text-shadow: 3px 3px #000000; /* Define un borde para el texto*/
+    cursor: pointer; /* Cuando se para encima del texto el puntero se vuelve una mano*/
+    color:#e2e2e2; /* Define un color del texto*/
+    display: flex; /*Especifica como se debe mostrar un elemento HTML */
+    justify-content: center; /* Especifica la alineación del los elementos dentro de la caja, en este caso centrado*/
+    font-style:normal;
+    font-weight: 1000;
+ }
+
+.Titulo:hover { /* Especifíca acciones en cuánto el puntero se para encima del elemento */
+    color: #afafc4; /* Define un color*/
+    text-shadow: 3px 3px #252525; /* Define un color de borde*/
+}
+    
+.imageninicio{  
+    margin-top: 50px; /* Distancia del elemento al tope superior */
+    padding-left: 8%; /* Distancia del elemento al tope izquierdo */
+    width: 84.3%;
+}
+
+    
+.textoinicio{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color: #002034;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 17px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #e2e2e2;   
+}
+
+a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
+    text-decoration: none; /* Elimina de los elementos tipo vínculo el subrayado*/
+}
+
+.Fondoubicacion{
+    height: 100vh; /*Establece la altura de un elemento*/
+    background: linear-gradient(to right, #e2e2e2 0%, #e2e2e2 25%,#002034 25%, #002034 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores en 2 porciones */
+}
+
+.Botonnavegacion2 { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    display: block; 
+    width: 80%; /* Ancho de la caja*/
+    font-family: Tahoma;
+    font-size: 20px; 
+    font-weight: 500; /* Grosor de la letra */ 
+    border-radius: 10px; /* Define un radio de las esquinas de la caja*/
+    padding: 10px 10px 10px 5px; /* Distancias del texto al borde de la caja /Superior/Derecha/Abajo/Izquierda/ */
+    margin-left: 10%; /* Distancia lateral izquierda mínima de la caja hasta otro elemento*/
+    margin-top: 50px; /* Distancia superior mínima de la caja hasta otro elemento*/
+    margin-right: 0px; /* Distancia lateral derecha mínima de la caja hasta otro elemento*/
+    background-color: #002034; /* Define un color de fondo de la caja*/
+    color: #e2e2e2; /* Define un color para la letra*/
+    text-align: center; /*Define una posición del texto de la caja, en este caso centrado */
+} 
+
+.Botonnavegacion3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    display: block; /* Define un elemento tipo bloque */
+    width: 80%; 
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 500; 
+    border-radius: 10px;
+    padding: 10px 10px 10px 5px;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-right: 0px;
+    background-color:#002034;
+    color: #e2e2e2;
+    text-align: center;
+}
+
+.Botonnavegacion2:hover { /* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
+    color: #afafc4;
+    text-shadow: 1px 1px #000000;
+    background-color:#2a4f5e; /* Define un color del fondo para cuando el puntero se ubica encima del elemento */
+    }
+
+.Botonnavegacion3:hover {/* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
+    color: #afafc4;
+    text-shadow: 1px 1px #000000;
+     background-color:#2a4f5e;
+    }  
+
+
+.textoubicacion{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    margin-top: 80px;
+    left: 15%;
+    font-family: Tahoma;
+    font-size: 11px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #002034;   
+}
+
+.Subtitulo {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 25px; /* Define el tamaño de letra*/
+    margin-top: 10px;
+    left: 5%;
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.Subtitulo2 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    margin-top: 0px;
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    margin-left: 27%;
     font-size: 30px; /* Define el tamaño de letra*/
     text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
     color:#F5EADE; /* Define un color del texto*/
@@ -565,6 +668,8 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     text-align: justify; /* Define una posición del texto, en este caso justificado*/
     background-color:  #F5EADE;
     border-radius: 5px;
+    margin-left: 27%;
+    max-width: 70%;
     font-family: Tahoma;
     font-size: 16px;
     padding: 5px 10px 5px 10px;
@@ -574,12 +679,8 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 
 .Flora{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
       text-align: justify; /* Define una posición del texto, en este caso justificado*/
-    position: absolute; 
-    top: 178%;
-    left: 27%;
-    max-width: 30%;/* Define el máximo ancho que puede tener la caja*/
     font-family: Tahoma;
-    font-size: 30px;
+    font-size: 25px;
     align-content: center;
     text-shadow: 1px 1px #000000; 
     color: #F5EADE; 
@@ -588,15 +689,951 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 
 .Fauna{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
       text-align: justify; /* Define una posición del texto, en este caso justificado*/
-    position: absolute; 
-    top: 178%;
-    left: 60%;
-    max-width: 38%;
     font-family: Tahoma;
-    font-size: 30px;
+    font-size: 25px;
     align-content: center;
     text-shadow: 1px 1px #000000; 
     color: #F5EADE; 
     padding: 0px 0px 0px 0px;
 }
+
+.Brujula {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    align-content: center;
+}
+
+.Maps {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 15px; /* Define el tamaño de letra*/
+    color: #e2e2e2;
+    cursor: pointer;
+    text-decoration:underline; /*Permite que el texto presente subrayado (Debido a que este se le había eliminado a los elementos tipo "a")*/
+}
+
+.Maps:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4;
+    text-shadow: 1px 1px #000000;
+    }
+
+.vinc1 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.vinc1:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4; /* Define un color del texto*/
+}
+
+.textohabitantes{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #002034;   
+}
+
+
+.Subtitulo3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 25px; /* Define el tamaño de letra*/
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+
+.Pachunos{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    align-content: center;
+    color: #002034; 
+}
+
+.Subsubtitulo {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 20px; /* Define el tamaño de letra*/
+    padding-left: 5px;
+    color:#002034; /* Define un color del texto*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+}
+    
+
+.Imagenes{
+    position: relative;/* Definición de posición relativa, depende de otros elementos*/
+	float: left;/* Especifíca que el elemento flota a la izquierda del cuadro*/
+	margin-right: 10px;/* Distancia mínima de 10 pixeles a la derecha del elemeto con otro elemento*/
+	margin-bottom: 10px;/* Distancia mínima de 10 pixeles debajo del elemeto con otro elemento*/
+    margin-left: 10px;/* Distancia mínima de 10 pixeles a la izquierda del elemeto con otro elemento*/
+	margin-top: 10px;/* Distancia mínima de 10 pixeles encima del elemeto con otro elemento*/
+}
+
+.vinc2 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    color:#e2e2e2; /* Define un color del texto*/
+    position: relative;
+    top: 30px;
+}
+
+.vinc2:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4; /* Define un color del texto*/
+}
+
+.Indiceactividades {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    max-width: 50%; /*Define el ancho de caja */
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+    align-content: center;
+    color: #002034; 
+}
+
+.Iniciohistoria {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+    align-content: center;
+    color: #002034; 
+}
+
+.Pachunos1{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 18px; /* Define el tamaño de letra*/
+    max-width: 900px;/*Define el ancho de caja */
+    color:#002034; /* Define un color del texto*/
+    text-align: justify;
+}
+
+.Pachunos1:hover {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    color: #2a4f5e; /* Define un color del texto*/
+}
+
+.vinc3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    color:#002034; /* Define un color del texto*/
+}
+
+.vinc3:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color:#2a4f5e; /* Define un color del texto*/
+}
+
+.Subtitulo4{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 30px; /* Define el tamaño de letra*/
+    margin-top: 50px;
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.Fondoreferencias{
+    height: 100vh; /*Establece la altura de un elemento*/
+    background: linear-gradient(to right, #e2e2e2 0%, #e2e2e2 28%,#002034 28%, #002034 78%, #e2e2e2 78%, #e2e2e2 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores distintos para 3 porciones iguales*/
+}
+
+.Referencias { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #002034; 
+}
+
+.vinc4 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.vinc4:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4; /* Define un color del texto*/
+}
+
+.Indiceact {
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 20px; /* Define el tamaño de letra*/
+    max-width: 30%;/*Define el ancho de caja */
+    color:#002034; /* Define un color del texto*/
+    text-align: justify;
+}
+
+.Indiceact:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #2a4f5e; /* Define un color del texto*/
+}
+
+.Imagenact{
+    position: relative;/* Definición de posición relativa, depende de otros elementos*/
+	float: right;/* Especifíca que el elemento flota a la izquierda del cuadro*/
+	margin-right: 10px;/* Distancia mínima de 10 pixeles a la derecha del elemeto con otro elemento*/
+	margin-bottom: 10px;/* Distancia mínima de 10 pixeles debajo del elemeto con otro elemento*/
+    margin-left: 10px;/* Distancia mínima de 10 pixeles a la izquierda del elemeto con otro elemento*/
+	margin-top: 10px;/* Distancia mínima de 10 pixeles encima del elemeto con otro elemento*/
+}
+
+.Subtituloact1{
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 25px;
+    padding: 10px 10px 0px 10px;
+    align-content: center;
+    color: #e2e2e2; 
+}
+
+.Subsubtituloact1{
+    display: block; 
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    max-width: 90%;
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+    align-content: center;
+    color: #002034; 
+}
+
+.Pachunos2{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 18px; /* Define el tamaño de letra*/
+    max-width: 100%;/*Define el ancho de caja */
+    color:#002034; /* Define un color del texto*/
+    text-align: justify;   
+}
+
+.Imagenescenter{ /*Estilo para centrar las imagenes*/
+    text-align: center;/*Alineación de texto centrado*/
+}
+
+
+.vinc5 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    position: relative;
+    top: 100px;
+    left: 27%;
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.vinc5:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4; /* Define un color del texto*/
+}
+}
+
+@media only screen and (max-width: 1200px) {
+    
+.iconos{
+    width: 15%;    
+    }
+
+.Fondoindice{
+    height: 100vh; /*Establece la altura de un elemento*/
+    background: linear-gradient(to right, #e2e2e2 0%, #e2e2e2 30%,#002034 30%, #002034 70%, #e2e2e2 70%, #e2e2e2 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores distintos para 3 porciones iguales*/
+}
+
+.Titulo {
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 1.35em ; /* Define el tamaño de letra*/
+    max-width: 25%;/*Define el ancho de caja */
+    margin-left: 37.5%;/* Define el margen izquiedo de la caja*/
+    text-shadow: 3px 3px #000000; /* Define un borde para el texto*/
+    cursor: pointer; /* Cuando se para encima del texto el puntero se vuelve una mano*/
+    color:#e2e2e2; /* Define un color del texto*/
+    display: flex; /*Especifica como se debe mostrar un elemento HTML */
+    justify-content: center; /* Especifica la alineación del los elementos dentro de la caja, en este caso centrado*/
+    font-style:normal;
+    font-weight: 1000;
+ }
+
+.Titulo:hover { /* Especifíca acciones en cuánto el puntero se para encima del elemento */
+    color: #afafc4; /* Define un color*/
+    text-shadow: 3px 3px #252525; /* Define un color de borde*/
+}
+    
+.imageninicio{  
+    margin-top: 50px; /* Distancia del elemento al tope superior */
+    padding-left: 8%; /* Distancia del elemento al tope izquierdo */
+    width: 84.3%;
+}
+
+    
+.textoinicio{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color: #002034;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 17px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #e2e2e2;   
+}
+
+a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
+    text-decoration: none; /* Elimina de los elementos tipo vínculo el subrayado*/
+}
+
+.Fondoubicacion{
+    height: 100vh; /*Establece la altura de un elemento*/
+    background: linear-gradient(to right, #e2e2e2 0%, #e2e2e2 25%,#002034 25%, #002034 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores en 2 porciones */
+}
+
+.Botonnavegacion2 { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    display: block; 
+    width: 80%; /* Ancho de la caja*/
+    font-family: Tahoma;
+    font-size: 20px; 
+    font-weight: 500; /* Grosor de la letra */ 
+    border-radius: 10px; /* Define un radio de las esquinas de la caja*/
+    padding: 10px 10px 10px 5px; /* Distancias del texto al borde de la caja /Superior/Derecha/Abajo/Izquierda/ */
+    margin-left: 10%; /* Distancia lateral izquierda mínima de la caja hasta otro elemento*/
+    margin-top: 50px; /* Distancia superior mínima de la caja hasta otro elemento*/
+    margin-right: 0px; /* Distancia lateral derecha mínima de la caja hasta otro elemento*/
+    background-color: #002034; /* Define un color de fondo de la caja*/
+    color: #e2e2e2; /* Define un color para la letra*/
+    text-align: center; /*Define una posición del texto de la caja, en este caso centrado */
+} 
+
+.Botonnavegacion3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    display: block; /* Define un elemento tipo bloque */
+    width: 80%; 
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 500; 
+    border-radius: 10px;
+    padding: 10px 10px 10px 5px;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-right: 0px;
+    background-color:#002034;
+    color: #e2e2e2;
+    text-align: center;
+}
+
+.Botonnavegacion2:hover { /* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
+    color: #afafc4;
+    text-shadow: 1px 1px #000000;
+    background-color:#2a4f5e; /* Define un color del fondo para cuando el puntero se ubica encima del elemento */
+    z-index: 30; /* para asegurar que el menu esta por encima de todo lo demás*/
+    width: 40%; 
+    margin-left: -60%; /* se oculta porque se coloca por fuera de la ventana*/
+    margin-top: 4px;
+    transition: all 1s;   /* la animación de desplegar el menu dura 1 segundo*/
+    }
+
+.Botonnavegacion3:hover {/* Define accioones para cuando el puntero se ubica encima de los botones de navegación*/
+    color: #afafc4;
+    text-shadow: 1px 1px #000000;
+     background-color:#2a4f5e;
+    }  
+
+
+.textoubicacion{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    margin-top: 80px;
+    left: 15%;
+    font-family: Tahoma;
+    font-size: 11px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #002034;   
+}
+
+.Subtitulo {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 25px; /* Define el tamaño de letra*/
+    margin-top: 10px;
+    left: 5%;
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.Subtitulo2 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    margin-top: 0px;
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    margin-left: 27%;
+    font-size: 30px; /* Define el tamaño de letra*/
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#F5EADE; /* Define un color del texto*/
+}
+
+.textoclima{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    border-radius: 5px;
+    margin-left: 27%;
+    max-width: 70%;
+    font-family: Tahoma;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    align-content: center;
+    color: #72594E;   
+}
+
+.Flora{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+      text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    font-family: Tahoma;
+    font-size: 25px;
+    align-content: center;
+    text-shadow: 1px 1px #000000; 
+    color: #F5EADE; 
+    padding: 0px 0px 0px 0px;
+}
+
+.Fauna{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+      text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    font-family: Tahoma;
+    font-size: 25px;
+    align-content: center;
+    text-shadow: 1px 1px #000000; 
+    color: #F5EADE; 
+    padding: 0px 0px 0px 0px;
+}
+
+.Brujula {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    align-content: center;
+}
+
+.Maps {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 15px; /* Define el tamaño de letra*/
+    color: #e2e2e2;
+    cursor: pointer;
+    text-decoration:underline; /*Permite que el texto presente subrayado (Debido a que este se le había eliminado a los elementos tipo "a")*/
+}
+
+.Maps:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4;
+    text-shadow: 1px 1px #000000;
+    }
+
+.vinc1 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.vinc1:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4; /* Define un color del texto*/
+}
+
+.textohabitantes{ /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #002034;   
+}
+
+
+.Subtitulo3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 25px; /* Define el tamaño de letra*/
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+
+.Pachunos{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    align-content: center;
+    color: #002034; 
+}
+
+.Subsubtitulo {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 20px; /* Define el tamaño de letra*/
+    padding-left: 5px;
+    color:#002034; /* Define un color del texto*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+}
+    
+
+.Imagenes{
+    position: relative;/* Definición de posición relativa, depende de otros elementos*/
+	float: left;/* Especifíca que el elemento flota a la izquierda del cuadro*/
+	margin-right: 10px;/* Distancia mínima de 10 pixeles a la derecha del elemeto con otro elemento*/
+	margin-bottom: 10px;/* Distancia mínima de 10 pixeles debajo del elemeto con otro elemento*/
+    margin-left: 10px;/* Distancia mínima de 10 pixeles a la izquierda del elemeto con otro elemento*/
+	margin-top: 10px;/* Distancia mínima de 10 pixeles encima del elemeto con otro elemento*/
+}
+
+.vinc2 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    color:#e2e2e2; /* Define un color del texto*/
+    position: relative;
+    top: 30px;
+}
+
+.vinc2:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4; /* Define un color del texto*/
+}
+
+.Indiceactividades {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    max-width: 50%; /*Define el ancho de caja */
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+    align-content: center;
+    color: #002034; 
+}
+
+.Iniciohistoria {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #e2e2e2;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+    align-content: center;
+    color: #002034; 
+}
+
+.Pachunos1{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 18px; /* Define el tamaño de letra*/
+    max-width: 900px;/*Define el ancho de caja */
+    color:#002034; /* Define un color del texto*/
+    text-align: justify;
+}
+
+.Pachunos1:hover {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    color: #2a4f5e; /* Define un color del texto*/
+}
+
+.vinc3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    color:#002034; /* Define un color del texto*/
+}
+
+.vinc3:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color:#2a4f5e; /* Define un color del texto*/
+}
+
+.Subtitulo4{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 30px; /* Define el tamaño de letra*/
+    margin-top: 50px;
+    text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.Fondoreferencias{
+    height: 100vh; /*Establece la altura de un elemento*/
+    background: linear-gradient(to right, #e2e2e2 0%, #e2e2e2 28%,#002034 28%, #002034 78%, #e2e2e2 78%, #e2e2e2 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores distintos para 3 porciones iguales*/
+}
+
+.Referencias { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color:  #F5EADE;
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 25px;
+    padding: 0px 10px 0px 10px;
+    align-content: center;
+    color: #002034; 
+}
+
+.vinc4 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.vinc4:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4; /* Define un color del texto*/
+}
+
+.Indiceact {
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 20px; /* Define el tamaño de letra*/
+    max-width: 30%;/*Define el ancho de caja */
+    color:#002034; /* Define un color del texto*/
+    text-align: justify;
+}
+
+.Indiceact:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #2a4f5e; /* Define un color del texto*/
+}
+
+.Imagenact{
+    position: relative;/* Definición de posición relativa, depende de otros elementos*/
+	float: right;/* Especifíca que el elemento flota a la izquierda del cuadro*/
+	margin-right: 10px;/* Distancia mínima de 10 pixeles a la derecha del elemeto con otro elemento*/
+	margin-bottom: 10px;/* Distancia mínima de 10 pixeles debajo del elemeto con otro elemento*/
+    margin-left: 10px;/* Distancia mínima de 10 pixeles a la izquierda del elemeto con otro elemento*/
+	margin-top: 10px;/* Distancia mínima de 10 pixeles encima del elemeto con otro elemento*/
+}
+
+.Subtituloact1{
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    border-radius: 5px;
+    font-family: Tahoma;
+    font-size: 25px;
+    padding: 10px 10px 0px 10px;
+    align-content: center;
+    color: #e2e2e2; 
+}
+
+.Subsubtituloact1{
+    display: block; 
+    text-align: justify; /* Define una posición del texto, en este caso justificado*/
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    max-width: 90%;
+    font-family: Tahoma;
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+    align-content: center;
+    color: #002034; 
+}
+
+.Pachunos2{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 18px; /* Define el tamaño de letra*/
+    max-width: 100%;/*Define el ancho de caja */
+    color:#002034; /* Define un color del texto*/
+    text-align: justify;   
+}
+
+.Imagenescenter{ /*Estilo para centrar las imagenes*/
+    text-align: center;/*Alineación de texto centrado*/
+}
+
+
+.vinc5 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
+    font-family: Tahoma; /* Define el tipo de letra del estilo */
+    font-size: 12px; /* Define el tamaño de letra*/
+    width: 150px;/*Define el ancho de caja */
+    position: relative;
+    top: 100px;
+    left: 27%;
+    color:#e2e2e2; /* Define un color del texto*/
+}
+
+.vinc5:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
+    color: #afafc4; /* Define un color del texto*/
+}
+ /Check Box Menu/
+
+#btn-menu {
+  display: none;   /* oculta el checkbox cuando no es necesario*/
+}
+
+div.checkBoxMenu {
+  
+  background-color: #e2e2e2; 
+  height: 40px; width: 25%; 
+  border-radius: 20%; 
+  margin-bottom: 6px; 
+  margin-left: 5px;
+  padding-left: 10px;
+padding-top: 10px;
+  border: solid 3px black;
+}
+
+div.checkBoxMenu img {
+
+  background-color: #e2e2e2; 
+  border-radius: 999px; 
+  position: relative; 
+  float: left; 
+}
+
+div.checkBoxMenu p {
+  
+  font-family: Tahoma;
+  font-size: 25px; 
+  font-weight: bold;
+  margin: auto; 
+}
+
+
+.menu {
+  /*Definición de la columna de menú (botones), se define su posición relativa para modificar su 
+  disposición dentro de la fila.*/
+    width: 20%;
+    padding: 5px 15px 5px 5px;
+    text-align: center;
+    position: fixed; 
+    left: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 20px; 
+    transition: widht 2s; 
+}
+.menu li{
+  /*Se define el comportamiento de cada item, que este caso, es cada página del menú de navegación 
+  de la página*/
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/Bloque de información de la página/
+
+.info {
+  /*Definición de la columna donde se tendrá la información de cada página, se le define su ancho, color de 
+  de fondo, bordes, padding, etc.*/
+
+    float: right; 
+    background-color: white;
+    border-color: var(--c1);
+    border-top-right-radius: var(--borderButton);
+    border-bottom-right-radius: var(--borderButton);
+    border-style: solid;
+    border-width: 5px;
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    right: 5px;
+    width: 72%; 
+    transition: width 1s;
+    }
+.buttonMenu {
+  /*Definición de como se muestra los botones de navegación, se le define su ancho, color de 
+  de fondo, bordes, padding, fuentes y por último, que se cambie el curso cuando este encima de este.*/
+    color: rgb(26, 26, 26);
+    background-color: rgb(255, 189, 147);
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 600; 
+    text-align: center;
+    width: 80%; 
+    height: 40px;
+    border-color: rgba(0, 0, 0, .3);
+    border-bottom-left-radius: var(--borderButton);
+    border-top-left-radius: var(--borderButton); 
+    cursor: pointer;
+    transition: height 2s;
+}
+
+.buttonMenu:hover{
+  /*Cuando se este por encima del botón, se realiza una pequeña animación, se hace una transición de 0.8s
+  para que se vea mejor. Se cambia el color de fondo y su posición.*/
+    color: black;
+    cursor: pointer;
+    background-color: #FF6E31;
+    font-size: 20px;
+    width: 81%;
+    height: 45px;
+    border-bottom-left-radius: var(--borderButton);
+    border-top-left-radius: var(--borderButton); 
+    transition: 0.8s;
+    position: relative;
+    right: 3px;    
+}
+
+.buttonSelected {
+  /*Se define el aspecto del botón cuando un menú fue seleccionado, se le cambia su posición y tamaño de 
+  la fuente comparado con el visto el los otros botones.*/
+    color: black;
+    cursor: pointer;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #FF6E31;
+    font-size: 22px; 
+    width: 85%;
+    height: 45px;
+    border-bottom-left-radius: var(--borderButton);
+    border-top-left-radius: var(--borderButton); 
+    position: relative;
+    left: 10px;   
+}   
+    
+ul {
+    list-style: none;
+}
+    
+
+    
+/* Cuando la pantalla mida menos de 600 px */
+}
+
+#btn-menu {
+  display: none;  
+}
+
+div.checkBoxMenu {
+  
+  background-color: #e2e2e2; 
+  height: 40px; width: 30%; 
+  margin-bottom: 6px; 
+  margin-left: 5px;
+  padding-left: 10px;
+  border: solid 3px black;
+}
+
+div.checkBoxMenu img {
+
+  background-color: "e2e2e2"; 
+  border-radius: 999px; 
+  position: relative; 
+  float: left; 
+}
+
+div.checkBoxMenu p {
+
+  font-size: 25px; 
+  margin: auto;
+  font-family: Tahoma;
+  font-size: 18px;
+}
+
+
+.menu {
+    width: 20%;
+    padding: 5px 15px 5px 5px;
+    text-align: center;
+    position: fixed; 
+    left: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; 
+    transition: widht 2s;
+}
+.menu li{
+
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+:root {
+  --borderButton: 10px;
+}
+
+.buttonMenu {
+    color: white;
+    background-color: #72594E; 
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 600; 
+    text-align: center;
+    width: 80%; 
+    height: 40px;
+    border-color: rgba(0, 0, 0, .3);
+    border-radius:20px;
+    cursor: pointer;
+    transition: height 2s;
+}
+
+.buttonMenu:hover{
+
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    font-size: 20px;
+    width: 81%;
+    height: 45px;
+    border-bottom-left-radius: var(--borderButton);
+    border-top-left-radius: var(--borderButton); 
+    transition: 0.8s;
+    position: relative;
+    right: 3px;    
+}
+
+ 
+@media screen and (max-width: 800px) {
+
+    
+    p, div.contents li {
+      
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .menu {
+ 
+      margin-left: -50%; 
+      transition: all 1s;
+      z-index: 30;
+      background-color: rgba(0,0,0,0.8);
+      width: 180px; 
+      border-radius: var(--borderButton);
+    }
+
+    div.menuButton {
+      width: 180px /Aumento del tamaño del contenedor de botones de navegación/
+    }
+
+    .titleTimelineOne, .titleTimelineTwo, .contentsTitle {
+      font-size: 30px;
+
+    }
+
+    .info {
+      
+      width: 86%;
+      transition: all 1s; 
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      right: 10px;
+    }
+
+    .buttonMenu, .buttonMenu:hover {
+      font-family: Tahoma;
+      border-radius: var(--borderButton);
+      width: 90%; 
+      left: 3px;
+    }
+    div.infoContainer {
+      max-width: 100%;
+      transition: all 1s;
+    }
+    img.three {
+      z-index: 10;
+      width: 100%;
+      margin-right: 5px;
+      height: 250px;
+    }
+
+    #btn-menu:checked ~ .menu {  /* el checkbox controla las dos posiciones del menu */
+      margin: 1px; 
+    }
+  }
+
 }
