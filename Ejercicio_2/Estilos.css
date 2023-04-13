@@ -434,13 +434,6 @@ ul {
     color: #72594E; 
 }
 
-.Pachunos2{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
-    font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 18px; /* Define el tamaño de letra*/
-    max-width: 100%;/*Define el ancho de caja */
-    color:#72594E; /* Define un color del texto*/
-    text-align: justify;   
-}
 
 .Imagenescenter{ /*Estilo para centrar las imagenes*/
     text-align: center;/*Alineación de texto centrado*/
@@ -884,14 +877,6 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     color: #002034; 
 }
 
-.Pachunos2{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
-    font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 18px; /* Define el tamaño de letra*/
-    max-width: 100%;/*Define el ancho de caja */
-    color:#002034; /* Define un color del texto*/
-    text-align: justify;   
-}
-
 .Imagenescenter{ /*Estilo para centrar las imagenes*/
     text-align: center;/*Alineación de texto centrado*/
 }
@@ -1256,72 +1241,72 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
 
 .Indiceactividades {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     text-align: justify; /* Define una posición del texto, en este caso justificado*/
-    background-color:  #e2e2e2;
+    background-color:  #E5FFEC;
     border-radius: 5px;
     max-width: 50%; /*Define el ancho de caja */
     font-family: Tahoma;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0px 0px 0px 10px;
     align-content: center;
-    color: #002034; 
+    color: #132815; 
 }
 
 .Iniciohistoria {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     text-align: justify; /* Define una posición del texto, en este caso justificado*/
-    background-color:  #e2e2e2;
+    background-color:  #E5FFEC;
     border-radius: 5px;
     font-family: Tahoma;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 10px 0px 10px;
     align-content: center;
-    color: #002034; 
+    color: #132815; 
 }
 
 .Pachunos1{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 18px; /* Define el tamaño de letra*/
+    font-size: 12px; /* Define el tamaño de letra*/
     max-width: 900px;/*Define el ancho de caja */
-    color:#002034; /* Define un color del texto*/
+    color:#132815; /* Define un color del texto*/
     text-align: justify;
 }
 
 .Pachunos1:hover {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
-    color: #2a4f5e; /* Define un color del texto*/
+    color: #006d69; /* Define un color del texto*/
 }
 
 .vinc3 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
     font-size: 12px; /* Define el tamaño de letra*/
     width: 150px;/*Define el ancho de caja */
-    color:#002034; /* Define un color del texto*/
+    color:#132815; /* Define un color del texto*/
 }
 
 .vinc3:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
-    color:#2a4f5e; /* Define un color del texto*/
+    color:#006d69; /* Define un color del texto*/
 }
 
 .Subtitulo4{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 30px; /* Define el tamaño de letra*/
+    font-size: 25px; /* Define el tamaño de letra*/
     margin-top: 50px;
     text-shadow: 1.5px 1.5px #000000; /* Define un borde para el texto*/
-    color:#e2e2e2; /* Define un color del texto*/
+    color:#E5FFEC; /* Define un color del texto*/
 }
 
 .Fondoreferencias{
     height: 100vh; /*Establece la altura de un elemento*/
-    background: linear-gradient(to right, #e2e2e2 0%, #e2e2e2 28%,#002034 28%, #002034 78%, #e2e2e2 78%, #e2e2e2 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores distintos para 3 porciones iguales*/
+    background: linear-gradient(to right, #E5FFEC 0%, #E5FFEC 28%,#132815 28%, #132815 78%, #E5FFEC 78%, #E5FFEC 100%);/* Define un color de fondo, en este caso divide el fondo en 2 colores distintos para 3 porciones iguales*/
 }
 
 .Referencias { /* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     text-align: justify; /* Define una posición del texto, en este caso justificado*/
-    background-color:  #e2e2e2;
+    background-color: #E5FFEC;
     border-radius: 5px;
     font-family: Tahoma;
-    font-size: 25px;
+    font-size: 20px;
     padding: 0px 10px 0px 10px;
     align-content: center;
-    color: #002034; 
+    color: #132815; 
 }
 
 #imagen {
@@ -1329,30 +1314,35 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
   }
 
 #nuevaimagen {
-    display: block !important;
+    display: none !important;
   }
+
+
+#nuevaimagen2 {
+    display: block !important;
+  }    
 
 
 .vinc4 {/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
     font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 12px; /* Define el tamaño de letra*/
-    color:#e2e2e2; /* Define un color del texto*/
+    font-size: 10px; /* Define el tamaño de letra*/
+    color:#E5FFEC; /* Define un color del texto*/
 }
 
 .vinc4:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
-    color: #afafc4; /* Define un color del texto*/
+    color: #006d69; /* Define un color del texto*/
 }
 
 .Indiceact {
     font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 20px; /* Define el tamaño de letra*/
+    font-size: 15px; /* Define el tamaño de letra*/
     max-width: 30%;/*Define el ancho de caja */
-    color:#002034; /* Define un color del texto*/
+    color:#132815; /* Define un color del texto*/
     text-align: justify;
 }
 
 .Indiceact:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
-    color: #2a4f5e; /* Define un color del texto*/
+    color: #006d69; /* Define un color del texto*/
 }
 
 .Imagenact{
@@ -1368,32 +1358,25 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     text-align: justify; /* Define una posición del texto, en este caso justificado*/
     border-radius: 5px;
     font-family: Tahoma;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 10px 0px 10px;
     align-content: center;
-    color: #e2e2e2; 
+    color: #E5FFEC; 
 }
 
 .Subsubtituloact1{
     display: block; 
     text-align: justify; /* Define una posición del texto, en este caso justificado*/
-    background-color: #e2e2e2;
+    background-color: #E5FFEC;
     border-radius: 5px;
     max-width: 90%;
     font-family: Tahoma;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 10px 0px 10px;
     align-content: center;
-    color: #002034; 
+    color:#132815; 
 }
 
-.Pachunos2{/* Algunas definiciones se omiten puesto que ya se explican en lineas anteriores*/
-    font-family: Tahoma; /* Define el tipo de letra del estilo */
-    font-size: 18px; /* Define el tamaño de letra*/
-    max-width: 100%;/*Define el ancho de caja */
-    color:#002034; /* Define un color del texto*/
-    text-align: justify;   
-}
 
 .Imagenescenter{ /*Estilo para centrar las imagenes*/
     text-align: center;/*Alineación de texto centrado*/
@@ -1407,11 +1390,11 @@ a { /* Permite hacer definiciones para los elementos tipo vínvulo*/
     position: relative;
     top: 100px;
     left: 27%;
-    color:#e2e2e2; /* Define un color del texto*/
+    color:#E5FFEC; /* Define un color del texto*/
 }
 
 .vinc5:hover {/* Define acciones para cuando el puntero se ubica encima del texto*/
-    color: #afafc4; /* Define un color del texto*/
+    color: #B5E8C1; /* Define un color del texto*/
 }
 
     .menu { /* Crea una clase para definir una caja que contiene los botones del menú de navegación*/
@@ -1434,7 +1417,6 @@ div.checkBoxMenu { /* Define las características del boton de navegación*/
   padding-left: 7%;
  padding-top: 10px;
     border: solid 1px black; /* Define un borde negro de 1px al elemento*/
-    cursor: pointer;
 }
 
 div.checkBoxMenu img { /* Define las características del boton de navegación especificamente para elementos "img" */
